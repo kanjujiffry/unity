@@ -1,0 +1,14 @@
+# For more information about the available options please visit: http://go/backstage (VPN required)
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    github.com/project-slug: Unity-Technologies/mz-recruitment-golang-statscollector-assignment
+  name: mz-recruitment-golang-statscollector-assignment
+  description: "Golang version of the stats collector for engineering recruitment."
+  labels:
+    costcenter: "7020"
+spec:
+  type: other
+  lifecycle: production
+  owner: unity-technologies/[mz]-direct-demand-targeting

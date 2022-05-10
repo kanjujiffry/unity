@@ -1,0 +1,24 @@
+{
+	"name": "unity-nodejs-statscollector-assignment",
+	"version": "1.0.0",
+	"description": "Unity nodejs statscollector assignment for recruitment.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"test": "jest --testPathPattern=.*.spec.ts$",
+		"test-bench": "jest --testPathPattern=.*.bench.ts$"
+	},
+	"devDependencies": {
+		"@types/jest": "^23.0.0",
+		"chai": "^4.3.4",
+		"jest": "^23.1.0",
+		"rollup-plugin-typescript2": "^0.14.0",
+		"ts-jest": "^22.4.6",
+		"typescript": "^2.9.1"
+	},
+	"keywords": [
+		"module",
+		"npm",
+		"typescript"
+	]
+}
